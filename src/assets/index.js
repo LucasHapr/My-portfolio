@@ -18,6 +18,8 @@ import close from './icons/close.png';
 import download from './icons/download.png';
 import downloadHover from './icons/downloadHover.png';
 import pineapple from './icons/pineapple.png';
+import view from './icons/view.png';
+import darkView from './icons/darkView.png';
 import pineappleHover from './icons/pineappleHover.png';
 import menu from './icons/menu.png';
 import resume from './icons/resume.png';
@@ -31,6 +33,11 @@ import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
 import nodejs from './tech/nodejs.png';
+import python from './tech/python.png';
+import bootstrap from './tech/bootstrap.png';
+import php from './tech/php.png';
+import sass from './tech/sass.png';
+import nextjs from './tech/nextjs.png';
 import reactjs from './tech/reactjs.png';
 import redux from './tech/redux.png';
 import tailwind from './tech/tailwind.png';
@@ -41,10 +48,13 @@ import rubyrails from './tech/rubyrails.png';
 
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
+import ib from './company/ib.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
+import lilac from './projects/lilac.jpeg';
+import secret from './projects/secret.jpeg';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
@@ -52,10 +62,20 @@ import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
 
 export {
+  ib,
+  view,
+  lilac,
+  secret,
   bwmap,
   bgvec,
   nairobi,
   whiteabstract,
+  python,
+  bootstrap,
+  darkView,
+  php,
+  sass,
+  nextjs,
   worldmap,
   logo,
   logotext,

@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { services } from "../constants";
@@ -33,7 +32,7 @@ const About = () => {
     <div className="-mt-[6rem]">
       <motion.div variants={textVariant()}>
         {/* <p className={styles.sectionSubText}>Um pouco</p> */}
-        <h2 className={styles.sectionHeadText}>Sobre mim.</h2>
+        <h2 className={styles.sectionHeadText}>Sobre mim</h2>
       </motion.div>
 
       <motion.p
