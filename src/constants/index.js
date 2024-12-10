@@ -25,6 +25,8 @@ import {
   ib,
   lilac,
   secret,
+  roboCorretores,
+  notes,
 } from "../assets";
 
 export const navLinks = [
@@ -200,8 +202,8 @@ const projects = [
   },
   {
     id: "project-3",
-    name: "Math Magicians",
-    description: "This is a single-page calculator app built with React",
+    name: "Robô busca corretores",
+    description: "Automatização em python utilizada para buscar os corretores listados no creci SP e salvá-los no banco",
     tags: [
       {
         name: "nextjs",
@@ -216,14 +218,14 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: math,
-    repo: "https://github.com/shaqdeff/Math-Magicians",
-    demo: "https://inspiring-medovik-37d3b3.netlify.app/",
+    image: roboCorretores,
+    repo: "https://github.com/LucasHapr/Robo_busca_corretores",
+    // demo: "https://inspiring-medovik-37d3b3.netlify.app/",
   },
   {
     id: "project-4",
-    name: "Movie Metro",
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    name: "Projeto Notas",
+    description: `Bloco de notas intuitivo desenvolvido em React com captação de texto por voz`,
     tags: [
       {
         name: "nextjs",
@@ -238,33 +240,33 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: movie,
-    repo: "https://github.com/shaqdeff/Movie-Metro",
-    demo: "https://movie-metro.netlify.app/",
+    image: notes,
+    repo: "https://github.com/LucasHapr/Nlw-project-notes",
+    demo: "https://nlw-project-notes-two.vercel.app/",
   },
-  {
-    id: "project-5",
-    name: "Nyeusi Fest Site",
-    description:
-      "This is a demo concert website for a music festival called Nyeusi.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: nyeusi,
-    repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-    demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
-  },
+  // {
+  //   id: "project-5",
+  //   name: "Nyeusi Fest Site",
+  //   description:
+  //     "This is a demo concert website for a music festival called Nyeusi.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: nyeusi,
+  //   repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
+  //   demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
+  // },
 ];
 
 export { services, technologies, experiences, projects };

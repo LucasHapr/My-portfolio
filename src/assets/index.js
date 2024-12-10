@@ -53,6 +53,8 @@ import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
+import roboCorretores from './projects/roboCorretores.png';
+import notes from './projects/notes.png';
 import lilac from './projects/lilac.jpeg';
 import secret from './projects/secret.jpeg';
 import leaderboard from './projects/leaderboard.png';
@@ -118,4 +120,6 @@ export {
   dcc,
   kelhel,
   microverse,
+  roboCorretores,
+  notes
 };
