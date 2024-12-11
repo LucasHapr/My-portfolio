@@ -66,7 +66,7 @@ const Contact = () => {
     >
       <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.5] bg-jet p-8 rounded-2xl mx-auto"
+        className="flex-[0.6] bg-jet p-8 rounded-2xl mx-auto"
       >
         {/* <p className={styles.sectionSubText}>Get in touch</p> */}
         <h3 className={styles.sectionHeadTextLight}>Entre em Contato.</h3>
