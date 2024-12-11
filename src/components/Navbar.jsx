@@ -53,7 +53,7 @@ const Navbar = () => {
           {toggle ? (
             <div
               className={`p-6 bg-flashWhite opacity-[0.98] absolute 
-                top-0 left-0 w-screen h-[100vh] z-10 menu ${
+                top-0 left-0 w-full h-auto z-10 menu ${
                   toggle ? 'menu-open' : 'menu-close'
                 }`}>
               <div className="flex justify-end">
@@ -66,20 +66,20 @@ const Navbar = () => {
               </div>
               <ul
                 className="list-none flex flex-col -gap-[1rem] 
-                items-start justify-end mt-[10rem] -ml-[35px]">
+                items-start justify-end text-end">
                 {navLinks.map((nav) => (
                   <li
                     id={nav.id}
                     key={nav.id}
                     className={`${
                       active === nav.title ? 'text-french' : 'text-eerieBlack'
-                    } text-[88px] font-bold font-arenq 
-                      uppercase tracking-[1px] cursor-pointer`}
+                    } font-bold font-arenq 
+                      uppercase tracking-[1px] cursor-pointer w-[90%] text-end`}
                     onClick={() => {
                       setToggle(!toggle);
                       setActive(nav.title);
                     }}>
-                    <a href={`#${nav.id}`}>{nav.title}</a>
+                    <a href={`#${nav.id}`} className='text-[30px]'>{nav.title}</a>
                   </li>
                 ))}
               </ul>
