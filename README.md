@@ -1,100 +1,34 @@
-# Portfolio Template
+# Meu Portfólio
 
-https://github.com/shaqdeff/Portfolio-Template/assets/92020713/eed76a82-e59d-440b-a04c-a2dc00a508b7
+Este repositório contém o código do meu portfólio pessoal, desenvolvido para destacar minhas habilidades, projetos e experiências profissionais. O objetivo é apresentar de forma clara e elegante o meu trabalho, proporcionando uma experiência agradável para os visitantes.
 
-![portfolio-phone](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e41ed31c-50e5-40d3-a74f-9c0eb053fe7f)
-![portfolio-phone-3](https://github.com/shaqdeff/Portfolio-Template/assets/92020713/e8c23aa7-ac27-48fc-bf66-50ab00e3a64f)
+## Sobre o Projeto
 
-I created this portfolio to use as my own but ended up doing something else entirely. However, instead of keeping it buried, I decided to put it up here on GitHub as an open-source resource to help individuals to learn, adapt, and create their own portfolios. Feel free to customize and modify the theme and components to suit your personal style and branding preferences.
+Este portfólio foi criado utilizando tecnologias modernas para garantir uma interface responsiva e visualmente atrativa. Ele reflete meu estilo pessoal e minha marca profissional, com foco em uma navegação intuitiva e organizada.
 
-## License and Attribution
+## Tecnologias Utilizadas
 
-The code in this repository is released under the [MIT](https://github.com/shaqdeff/Portfolio-Template/blob/90213d4887074d1d29434f706afad3d12fa33f5f/MIT.md) License, which grants you the freedom to use, modify, and distribute the template as your own. However, if you choose to use the site's design largely unmodified, kindly credit me as the original designer of the site.
+- **React.js:** Para a construção da interface e componentes interativos.
+- **Three.js:** Para elementos gráficos 3D e animações visuais.
+- **Framer Motion:** Para transições e animações suaves.
+- **TailwindCSS:** Para estilização rápida e eficiente com classes utilitárias.
 
-All projects and experiences included in this portfolio are the result of my own efforts and creativity. Please refrain from presenting them as your own.
+## Como Visualizar
 
-## Built With
+Acesse o portfólio através do link: [Meu Portfólio](https://seu-portfolio-link.com)
 
-- React.js
-- Three.js
-- Framer Motion
-- TailwindCSS
+## Instalação Local
 
-## Live Demo
+Caso queira explorar ou modificar o código, siga os passos abaixo:
 
-- Click [here](https://shaq-portfolio.netlify.app/) to view the live demo.
+### Pré-requisitos
 
-## Getting Started
+Certifique-se de ter o Node.js `16.0.0` ou superior e npm `9.0.0` ou superior instalados.
 
-To get started with this portfolio template, follow these simple steps:
+### Configuração
 
-### Prerequisites
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/seu-repositorio.git
+   cd seu-repositorio
 
-Make sure you have node `16.0.0` or higher and npm `9.0.0` or higher installed.
-
-### Setup
-
-- With git, clone the code to your machine, or download a ZIP of all the files directly.
-- [Download the ZIP file from this location](https://github.com/shaqdeff/Portfolio-Template/archive/refs/heads/main.zip) or run the following [git](https://git-scm.com/) command to clone the files to your machine:
-
-```
-git clone https://github.com/shaqdeff/Portfolio-Template.git
-```
-
-- Once the files are on your machine, open the **Portfolio-Template** folder in [Visual Studio Code](https://code.visualstudio.com/download).
-
-```
-cd Portfolio-Template && code .
-```
-
-## Install
-
-- After opening the files in Visual Studio Code, open the **VS Code** integrated terminal and run the following commands:
-
-```
-npm install
-```
-
-This will install all the packages and dependencies used in the project.
-
-## Usage
-
-- Run the following command to start a local server:
-
-```
-npm run dev
-```
-
-This will open up the project on a browser on `http://localhost:5173/`
-
-## Build
-
-- To create a production build:
-
-```
-npm run build
-```
-
-- To preview the site as it will appear once deployed:
-
-```
-npm run preview
-```
-
-## Authors
-
-👤 **Shaquille Ndunda**
-
-- GitHub: [@shaqdeff](https://github.com/shaqdeff)
-- Twitter: [@shaquillendunda](https://twitter.com/shaquillendunda)
-- LinkedIn: [Shaquille Ndunda](https://www.linkedin.com/in/shaquille-ndunda-b13a95107/)
-
-## Feedback and Contributions
-
-If you have any feedback, suggestions, or would like to contribute to this project, your involvement is highly valued. Feel free to open an [issue](../../issues/) or submit a pull request with your ideas and enhancements. Remember, this template is a starting point, and the true magic lies in making it your own. Enjoy the journey of creating a stunning portfolio that represents your unique talents and accomplishments!
-
-Happy coding and showcasing!
-
-## Show your support
-
-Give a ⭐️ if you like this project!
