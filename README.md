@@ -24,11 +24,3 @@ Caso queira explorar ou modificar o código, siga os passos abaixo:
 ### Pré-requisitos
 
 Certifique-se de ter o Node.js `16.0.0` ou superior e npm `9.0.0` ou superior instalados.
-
-### Configuração
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
-   cd seu-repositorio
-
