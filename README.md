@@ -15,7 +15,7 @@ Este portfólio foi criado utilizando tecnologias modernas para garantir uma int
 
 ## Como Visualizar
 
-Acesse o portfólio através do link: [Meu Portfólio](https://seu-portfolio-link.com)
+Acesse o portfólio através do link: [Meu Portfólio](https://my-portfolio-lucashaprs-projects.vercel.app/)
 
 ## Instalação Local
 
