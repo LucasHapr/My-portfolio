@@ -19,8 +19,6 @@ Acesse o portfólio através do link: [Meu Portfólio](https://my-portfolio-luca
 
 ## Instalação Local
 
-Caso queira explorar ou modificar o código, siga os passos abaixo:
-
 ### Pré-requisitos
 
 Certifique-se de ter o Node.js `16.0.0` ou superior e npm `9.0.0` ou superior instalados.
