@@ -27,6 +27,7 @@ import {
   secret,
   roboCorretores,
   notes,
+  GenerateImage,
 } from "../assets";
 
 export const navLinks = [
@@ -179,26 +180,22 @@ const projects = [
   },
   {
     id: "project-2",
-    name: "Palavra Secreta",
+    name: "Transcrição de imagens",
     description:
-      "O projeto Palavra Secreta é uma aplicação interativa desenvolvida em React, inspirada no clássico jogo de adivinhação popularizado pelo programa de Silvio Santos.",
+      "Este projeto utiliza inteligência artificial para transcrever automaticamente textos presentes em imagens. Com o uso da biblioteca google.generativeai.",
     tags: [
       {
-        name: "react",
+        name: "python",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "IA",
         color: "green-text-gradient",
       },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
     ],
-    image: secret,
-    repo: "https://github.com/LucasHapr/Palavra-Secreta",
-    demo: "https://palavra-secreta-gules.vercel.app/",
+    image: GenerateImage,
+    repo: "https://github.com/LucasHapr/Transcricao_de_imagens",
+    // demo: "https://palavra-secreta-gules.vercel.app/",
   },
   {
     id: "project-3",
@@ -244,8 +241,31 @@ const projects = [
     repo: "https://github.com/LucasHapr/Nlw-project-notes",
     demo: "https://nlw-project-notes-two.vercel.app/",
   },
+  {
+    id: "project-5",
+    name: "Palavra Secreta",
+    description:
+      "O projeto Palavra Secreta é uma aplicação interativa desenvolvida em React, inspirada no clássico jogo de adivinhação popularizado pelo programa de Silvio Santos.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: secret,
+    repo: "https://github.com/LucasHapr/Palavra-Secreta",
+    demo: "https://palavra-secreta-gules.vercel.app/",
+  },
   // {
-  //   id: "project-5",
+    //   id: "project-5",
   //   name: "Nyeusi Fest Site",
   //   description:
   //     "This is a demo concert website for a music festival called Nyeusi.",

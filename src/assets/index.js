@@ -54,6 +54,7 @@ import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
 import roboCorretores from './projects/roboCorretores.png';
+import GenerateImage from './projects/generate_image_IA.png';
 import notes from './projects/notes.png';
 import lilac from './projects/lilac.jpeg';
 import secret from './projects/secret.jpeg';
@@ -72,6 +73,7 @@ export {
   bgvec,
   nairobi,
   whiteabstract,
+  GenerateImage,
   python,
   bootstrap,
   darkView,
