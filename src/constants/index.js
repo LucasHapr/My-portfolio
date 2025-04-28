@@ -28,6 +28,7 @@ import {
   roboCorretores,
   notes,
   GenerateImage,
+  weather,
 } from "../assets";
 
 export const navLinks = [
@@ -221,6 +222,32 @@ const projects = [
   },
   {
     id: "project-4",
+    name: "React Weather Web",
+    description: "Aplicação Web de clima desenvolvida com Vite, ReactJS e TailwindCSS, consumindo dados da WeatherAPI em tempo real.",
+    tags: [
+      {
+        name: "vite",
+        color: "purple-text-gradient",
+      },
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "weatherapi",
+        color: "green-text-gradient",
+      },
+    ],
+    image: weather,
+    repo: "https://github.com/LucasHapr/ReactWeather",
+    demo: "https://react-weather-flame.vercel.app/",
+  },
+    {
+    id: "project-5",
     name: "Projeto Notas",
     description: `Bloco de notas intuitivo desenvolvido em React com captação de texto por voz`,
     tags: [
@@ -241,51 +268,28 @@ const projects = [
     repo: "https://github.com/LucasHapr/Nlw-project-notes",
     demo: "https://nlw-project-notes-two.vercel.app/",
   },
-  {
-    id: "project-5",
-    name: "Palavra Secreta",
-    description:
-      "O projeto Palavra Secreta é uma aplicação interativa desenvolvida em React, inspirada no clássico jogo de adivinhação popularizado pelo programa de Silvio Santos.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: secret,
-    repo: "https://github.com/LucasHapr/Palavra-Secreta",
-    demo: "https://palavra-secreta-gules.vercel.app/",
-  },
   // {
-    //   id: "project-5",
-  //   name: "Nyeusi Fest Site",
+  //   id: "project-6",
+  //   name: "Palavra Secreta",
   //   description:
-  //     "This is a demo concert website for a music festival called Nyeusi.",
+  //     "O projeto Palavra Secreta é uma aplicação interativa desenvolvida em React, inspirada no clássico jogo de adivinhação popularizado pelo programa de Silvio Santos.",
   //   tags: [
   //     {
-  //       name: "nextjs",
+  //       name: "react",
   //       color: "blue-text-gradient",
   //     },
   //     {
-  //       name: "supabase",
+  //       name: "restapi",
   //       color: "green-text-gradient",
   //     },
   //     {
-  //       name: "css",
+  //       name: "scss",
   //       color: "pink-text-gradient",
   //     },
   //   ],
-  //   image: nyeusi,
-  //   repo: "https://github.com/shaqdeff/Nyeusi-Fest-Site",
-  //   demo: "https://shaqdeff.github.io/Nyeusi-Fest-Site/",
+  //   image: secret,
+  //   repo: "https://github.com/LucasHapr/Palavra-Secreta",
+  //   demo: "https://palavra-secreta-gules.vercel.app/",
   // },
 ];
 

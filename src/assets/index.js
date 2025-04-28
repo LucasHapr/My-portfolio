@@ -56,6 +56,7 @@ import komikult from './projects/komikult.png';
 import roboCorretores from './projects/roboCorretores.png';
 import GenerateImage from './projects/generate_image_IA.png';
 import notes from './projects/notes.png';
+import weather from './projects/weather.png';
 import lilac from './projects/lilac.jpeg';
 import secret from './projects/secret.jpeg';
 import leaderboard from './projects/leaderboard.png';
@@ -123,5 +124,6 @@ export {
   kelhel,
   microverse,
   roboCorretores,
-  notes
+  notes,
+  weather
 };
