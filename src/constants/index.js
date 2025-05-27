@@ -29,6 +29,7 @@ import {
   notes,
   GenerateImage,
   weather,
+  api
 } from "../assets";
 
 export const navLinks = [
@@ -133,7 +134,7 @@ const experiences = [
     date: "Aug 2023 - Out 2023",
   },
   {
-    title: "Desenvolvedor Front-End",
+    title: "Desenvolvedor Full Stack Pleno",
     company_name: "IB System",
     icon: ib,
     iconBg: "#333333",
@@ -246,28 +247,55 @@ const projects = [
     repo: "https://github.com/LucasHapr/ReactWeather",
     demo: "https://react-weather-flame.vercel.app/",
   },
-    {
+  {
     id: "project-5",
-    name: "Projeto Notas",
-    description: `Bloco de notas intuitivo desenvolvido em React com captação de texto por voz`,
+    name: "API Produtos",
+    description: `API RESTful para gerenciamento de produtos, construída com Node.js, Express e MongoDB. Permite realizar operações de cadastro, consulta, atualização e remoção de produtos, além de fornecer uma documentação completa via Swagger.`,
     tags: [
       {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
+        name: "Node.js",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Express",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Swagger",
         color: "pink-text-gradient",
       },
     ],
-    image: notes,
-    repo: "https://github.com/LucasHapr/Nlw-project-notes",
-    demo: "https://nlw-project-notes-two.vercel.app/",
-  },
+    image: api,
+    repo: "https://github.com/LucasHapr/Api_produtos",
+    demo: "https://api-produtos-j4o3.onrender.com/api-docs",
+  }
+  
+  //   {
+  //   id: "project-5",
+  //   name: "Projeto Notas",
+  //   description: `Bloco de notas intuitivo desenvolvido em React com captação de texto por voz`,
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: notes,
+  //   repo: "https://github.com/LucasHapr/Nlw-project-notes",
+  //   demo: "https://nlw-project-notes-two.vercel.app/",
+  // },
   // {
   //   id: "project-6",
   //   name: "Palavra Secreta",

@@ -40,7 +40,7 @@ const About = () => {
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]"
       >
         Olá, meu nome é Lucas Rodrigues, tenho 20 anos e sou desenvolvedor
-        front-end com 1 ano de experiência na área. Atualmente, estou cursando
+        Full Stack pleno com 2 anos de experiência na área. Atualmente, estou cursando
         Engenharia de Software no Uni-FACEF, onde busco aprofundar meus
         conhecimentos e aprimorar minhas habilidades técnicas. Embora minha
         especialidade seja no front-end, também estudo back-end para obter uma
