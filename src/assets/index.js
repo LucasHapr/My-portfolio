@@ -64,7 +64,7 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
-import api from './projects/Api_products.png';
+import api from './projects/api_products.png';
 
 export {
   ib,
