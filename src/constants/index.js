@@ -134,7 +134,7 @@ const experiences = [
     date: "Aug 2023 - Out 2023",
   },
   {
-    title: "Desenvolvedor Full Stack Pleno",
+    title: "Desenvolvedor FullStack Pleno",
     company_name: "IB System",
     icon: ib,
     iconBg: "#333333",
@@ -148,7 +148,7 @@ const experiences = [
   //   date: 'May 2022 - Oct 2022',
   // },
   // {
-  //   title: 'Full Stack Developer',
+  //   title: 'FullStack Developer',
   //   company_name: 'Diversity Cyber Council',
   //   icon: dcc,
   //   iconBg: '#333333',
