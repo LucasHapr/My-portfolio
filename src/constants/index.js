@@ -17,6 +17,7 @@ import {
   math,
   movie,
   nyeusi,
+  docker,
   python,
   bootstrap,
   php,
@@ -29,7 +30,7 @@ import {
   notes,
   GenerateImage,
   weather,
-  api
+  api,
 } from "../assets";
 
 export const navLinks = [
@@ -104,8 +105,8 @@ const technologies = [
     icon: figma,
   },
   {
-    name: "Sass",
-    icon: sass,
+    name: "Docker",
+    icon: docker,
   },
   {
     name: "HTML 5",
@@ -202,7 +203,8 @@ const projects = [
   {
     id: "project-3",
     name: "Robô busca corretores",
-    description: "Automatização em python utilizada para buscar os corretores listados no creci SP e salvá-los no banco",
+    description:
+      "Automatização em python utilizada para buscar os corretores listados no creci SP e salvá-los no banco",
     tags: [
       {
         name: "nextjs",
@@ -224,7 +226,8 @@ const projects = [
   {
     id: "project-4",
     name: "React Weather Web",
-    description: "Aplicação Web de clima desenvolvida com Vite, ReactJS e TailwindCSS, consumindo dados da WeatherAPI em tempo real.",
+    description:
+      "Aplicação Web de clima desenvolvida com Vite, ReactJS e TailwindCSS, consumindo dados da WeatherAPI em tempo real.",
     tags: [
       {
         name: "vite",
@@ -249,31 +252,21 @@ const projects = [
   },
   {
     id: "project-5",
-    name: "API Produtos",
-    description: `API RESTful para gerenciamento de produtos, construída com Node.js, Express e MongoDB. Permite realizar operações de cadastro, consulta, atualização e remoção de produtos, além de fornecer uma documentação completa via Swagger.`,
+    name: "API JWT Produtos",
+    description: `API RESTful com autenticação JWT, CRUD de produtos com paginação/ordenação/busca full‑text, documentação via Swagger e orquestração com Docker Compose. Projeto pronto para deploy (Render).`,
     tags: [
-      {
-        name: "Node.js",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Express",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "MongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Swagger",
-        color: "pink-text-gradient",
-      },
+      { name: "Node.js", color: "green-text-gradient" },
+      { name: "Express", color: "blue-text-gradient" },
+      { name: "MongoDB", color: "green-text-gradient" },
+      { name: "Docker", color: "blue-text-gradient" },
+      { name: "JWT", color: "pink-text-gradient" },
+      { name: "Swagger", color: "pink-text-gradient" },
     ],
     image: api,
-    repo: "https://github.com/LucasHapr/Api_produtos",
-    demo: "https://api-produtos-j4o3.onrender.com/api-docs",
-  }
-  
+    repo: "https://github.com/LucasHapr/jwt-crud-api",
+    demo: "https://jwt-crud-api.onrender.com/docs",
+  },
+
   //   {
   //   id: "project-5",
   //   name: "Projeto Notas",
