@@ -135,11 +135,18 @@ const experiences = [
     date: "Aug 2023 - Out 2023",
   },
   {
+    title: "Desenvolvedor FullStack Junior",
+    company_name: "IB System",
+    icon: ib,
+    iconBg: "#333333",
+    date: "Nov 2023 - May 2025",
+  },
+  {
     title: "Desenvolvedor FullStack Pleno",
     company_name: "IB System",
     icon: ib,
     iconBg: "#333333",
-    date: "Nov 2023 - Atual",
+    date: "May 2025 - Atual",
   },
   // {
   //   title: 'Junior Software Engineer',
