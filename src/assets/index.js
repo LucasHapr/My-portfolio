@@ -3,12 +3,12 @@ import bgvec from './backgrounds/bg-vector.jpg';
 import nairobi from './backgrounds/nairobi.png';
 import whiteabstract from './backgrounds/white-abstract.png';
 import worldmap from './backgrounds/world-map.png';
-
+//logo
 import logo from './logo/logo_no_background.png';
 import logotext from './logo/text_no_background_black.png';
 
 import shaq from './personal/shaq.png';
-
+//icons
 import backend from './icons/backend.png';
 import ux from './icons/ux.png';
 import frontend from './icons/frontend.png';
@@ -25,13 +25,15 @@ import menu from './icons/menu.png';
 import resume from './icons/resume.png';
 import send from './icons/send.png';
 import sendHover from './icons/sendHover.png';
-
+//tech
 import css from './tech/css.png';
 import docker from './tech/docker.png';
 import figma from './tech/figma.png';
 import git from './tech/git.png';
 import html from './tech/html.png';
 import javascript from './tech/javascript.png';
+import mongoDB from './tech/mongodb.png';
+import go from './tech/go.svg';
 import nodejs from './tech/nodejs.png';
 import python from './tech/python.png';
 import bootstrap from './tech/bootstrap.png';
@@ -45,35 +47,33 @@ import typescript from './tech/typescript.png';
 import graphql from './tech/graphql.png';
 import postgresql from './tech/postgresql.png';
 import rubyrails from './tech/rubyrails.png';
-
+//companies
 import coverhunt from './company/coverhunt.png';
 import dcc from './company/dcc.png';
 import ib from './company/ib.png';
 import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
-
-import komikult from './projects/komikult.png';
+//projects
 import roboCorretores from './projects/roboCorretores.png';
 import GenerateImage from './projects/generate_image_IA.png';
 import notes from './projects/notes.png';
 import weather from './projects/weather.png';
 import lilac from './projects/lilac.jpeg';
 import secret from './projects/secret.jpeg';
-import leaderboard from './projects/leaderboard.png';
-import math from './projects/math-magicians.png';
-import movie from './projects/movie-metro.png';
-import nyeusi from './projects/nyeusi.png';
-import space from './projects/space-hub.png';
 import api from './projects/api_products.png';
+import goApi from './projects/go_api_products.png';
 
 export {
   ib,
+  go,
+  api,
   view,
   lilac,
   secret,
-  api,
   bwmap,
   bgvec,
+  goApi,
+  mongoDB,
   nairobi,
   whiteabstract,
   GenerateImage,
@@ -115,12 +115,6 @@ export {
   redux,
   tailwind,
   typescript,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
-  space,
   coverhunt,
   dcc,
   kelhel,

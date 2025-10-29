@@ -1,4 +1,6 @@
 import {
+  go,
+  mongoDB,
   frontend,
   backend,
   ux,
@@ -12,11 +14,6 @@ import {
   git,
   figma,
   postgresql,
-  komikult,
-  leaderboard,
-  math,
-  movie,
-  nyeusi,
   docker,
   python,
   bootstrap,
@@ -26,6 +23,7 @@ import {
   ib,
   lilac,
   secret,
+  goApi,
   roboCorretores,
   notes,
   GenerateImage,
@@ -85,6 +83,22 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "Docker",
+    icon: docker,
+  },
+  {
+    name: "Golang",
+    icon: go,
+  },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "MongoDB",
+    icon: mongoDB,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -97,24 +111,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "Python",
-    icon: python,
-  },
-  {
     name: "figma",
     icon: figma,
-  },
-  {
-    name: "Docker",
-    icon: docker,
-  },
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
   },
   {
     name: "Bootstrap",
@@ -124,6 +122,14 @@ const technologies = [
     name: "Php",
     icon: php,
   },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
 ];
 
 const experiences = [
@@ -165,29 +171,29 @@ const experiences = [
 ];
 
 const projects = [
-  {
-    id: "project-1",
-    name: "Lilac Pratas",
-    description:
-      "Lilac Pratas é um projeto desenvolvido em PHP que integra controle de produtos e gerenciamento de estoque diretamente no site.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: lilac,
-    // repo: "",
-    demo: "https://lilacpratas.com.br/",
-  },
+  // {
+  //   id: "project-1",
+  //   name: "Lilac Pratas",
+  //   description:
+  //     "Lilac Pratas é um projeto desenvolvido em PHP que integra controle de produtos e gerenciamento de estoque diretamente no site.",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: lilac,
+  //   // repo: "",
+  //   demo: "https://lilacpratas.com.br/",
+  // },
   {
     id: "project-2",
     name: "Transcrição de imagens",
@@ -229,6 +235,22 @@ const projects = [
     image: roboCorretores,
     repo: "https://github.com/LucasHapr/Robo_busca_corretores",
     // demo: "https://inspiring-medovik-37d3b3.netlify.app/",
+  },
+  {
+    id: "project-6",
+    name: "Go API Products",
+    description:
+      "API RESTful em Go (Gin) com Clean Architecture e PostgreSQL. CRUD de produtos, containers com Docker e endpoints prontos para produção.",
+    tags: [
+      { name: "Go", color: "green-text-gradient" },
+      { name: "Gin", color: "blue-text-gradient" },
+      { name: "PostgreSQL", color: "green-text-gradient" },
+      { name: "Docker", color: "blue-text-gradient" },
+      { name: "Clean Architecture", color: "pink-text-gradient" }
+    ],
+    image: goApi,
+    repo: "https://github.com/LucasHapr/Go_api_products",
+    // demo: "",
   },
   {
     id: "project-4",
